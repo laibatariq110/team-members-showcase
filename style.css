@@ -254,3 +254,49 @@ header p {
     box-shadow: 0 0 25px var(--shadow-color-primary-hover);
     transform: translateY(-3px);
 }
+
+@media (max-width: 768px) {
+    header {
+    margin-bottom: 40px;
+  }
+
+  header h1 {
+    font-size: 2.2rem;
+  }
+
+  .team-grid {
+    gap: 20px;
+  }
+
+  .team-cta {
+    padding: 30px 20px;
+  }
+
+  .team-cta h2 {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 30px 15px;
+  }
+
+  header h1 {
+    font-size: 1.9rem;
+  }
+
+  .profile-img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .card-top h3 {
+    font-size: 1.3rem;
+  }
+
+  .team-cta {
+    padding: 25px 15px;
+  }
+}
